@@ -128,6 +128,7 @@ function Knwl(language) {
 		knwl.words.linkWordsCasesensitive = linkWordsCaseSensitive;
 		knwl.words.linkWords = linkWords;
 		knwl.words.words = words;
+		knwl.words.str = str;
 		return knwl.words;
 	};
 	this.get = function(parser) {
